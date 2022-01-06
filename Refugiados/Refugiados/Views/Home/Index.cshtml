@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- Slide Carrossel-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -39,4 +40,123 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Próximo</span>
     </a>
-</div>        
+</div>
+
+
+
+<!-- Section Doações -->
+<section class="page-section bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase pt-5">Ajude os Refugiados</h2>
+            <h3 class="section-subheading text-muted pt-3 pb-3">É graças a essas contribuições constantes que podemos nos planejar, agir rapidamente em situações urgentes como a pandemia do novo coronavírus e outras e emergências. Tudo isso significa salvar vidas!</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Doação item 1-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" href="/Doacaos/Create">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="/assets/Refu_5.jpeg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading pt-1">
+                            <a asp-area="" asp-controller="Doacaos" asp-action="Create" class="btn btn-success btn-sm btn-block">R$ 40,00/mês</a>
+                        </div>
+                        <div class="portfolio-caption-subheading text-muted text-center">Você fornece kit de higiene pessoal e insumos ambulatorial.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Doação item 2-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="/Doacaos/Create">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="/assets/Refu_5.jpeg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading pt-1">
+                            <a asp-area="" asp-controller="Doacaos" asp-action="Create" class="btn btn-success btn-sm btn-block">Doações avulsos</a>
+                        </div>
+                        <div class="portfolio-caption-subheading text-muted text-center">Doe quanto permitir seu coração.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <!-- Doação item 3-->
+                <div class="portfolio-item">
+                    <a class="portfolio-link" data-bs-toggle="modal" href="/Doacaos/Create">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="/assets/Refu_5.jpeg" alt="..." />
+                    </a>
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading pt-1">
+                            <a asp-area="" asp-controller="Doacaos" asp-action="Create" class="btn btn-success btn-sm btn-block">R$ 85,00/mês</a>
+                        </div>
+                        <div class="portfolio-caption-subheading text-muted text-center">Você fornece insumos para tratamentos odontológicos e oftamológicos.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Perguntas Mais Frequentes-->
+<section class="page-section bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase pt-5">Perguntas Mais Frequentes</h2>
+            <h3 class="section-subheading text-muted pt-3 pb-3">Como podemos te ajudar? Preparamos uma área de perguntas frequentes onde você pode tirar todas as suas dúvidas sobre nossos projeto. Confira!</h3>
+        </div>
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Como posso contribuir para o trabalho?
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum..
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum..
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        Collapsible Group Item #3
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum..
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </section>
