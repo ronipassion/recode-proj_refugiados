@@ -7107,36 +7107,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ariomar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariomar\\source\\repos\\Refugiados\\Refugiados\\Refugiados.csproj",
+      "projectUniqueName": "/home/mamona/Desktop/recode/proj_refugiados/Refugiados/Refugiados/Refugiados.csproj",
       "projectName": "Refugiados",
-      "projectPath": "C:\\Users\\Ariomar\\source\\repos\\Refugiados\\Refugiados\\Refugiados.csproj",
-      "packagesPath": "C:\\Users\\Ariomar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariomar\\source\\repos\\Refugiados\\Refugiados\\obj\\",
+      "projectPath": "/home/mamona/Desktop/recode/proj_refugiados/Refugiados/Refugiados/Refugiados.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/mamona/Desktop/recode/proj_refugiados/Refugiados/Refugiados/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ariomar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -7192,7 +7180,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }
